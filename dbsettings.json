@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=DUNGEON_MASTER\\DUNGE_M;Database=carpentry;Trusted_Connection=True;MultipleActiveResultSets=True;"
+  }
+}

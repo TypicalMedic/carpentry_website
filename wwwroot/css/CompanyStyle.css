@@ -1,0 +1,64 @@
+﻿
+/*
+    yellow #FFB400
+    pine green #375659
+    black #000000
+    white #FFFFFF
+    damped white #ebe8e0
+*/
+
+.Custom-Checkbox {
+    min-height: 30px;
+    min-width: 30px;
+}
+
+    .Custom-Checkbox:checked {
+        background-image: url('../Pictures/check.png')!important;
+        background-color: #FFB400;
+    }
+
+.Custom-Radio {
+    border: 1px solid transparent !important;
+    border-radius: 1em !important;
+    background-color: #ffffff;
+    min-height: 150px;
+    min-width: 150px;
+    height: stretch;
+    width: stretch;
+}
+
+    .Custom-Radio:checked {
+        background-color: #FFB400;
+        outline: 5px solid #FFB400;
+    }
+
+.Yellow-Text {
+    color: #FFB400 !important;
+    font-size: larger;
+}
+
+.Yellow-Text-colorOnly {
+    color: #FFB400 !important;
+}
+
+
+.Dark-Text-colorOnly {
+    color: #000000 !important;
+}
+
+.Dark-Text {
+    color: #000000 !important;
+    font-size: larger;
+}
+
+.BaseBg {
+    background: #375659;
+    border-color: #375659;
+    border-bottom-color: #375659;
+    border-top-color: #375659;
+}
+
+.LightBg {
+    /* background: #f8f6f2;*/
+    background: #ebe8e0;
+}
